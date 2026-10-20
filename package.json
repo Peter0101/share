@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "scripts": {"start":"node src/server.js","dev":"node scripts/dev.mjs","seed":"node src/seed.js","client:dev":"vite --config client/vite.config.ts","client:build":"vite build --config client/vite.config.ts"},
+  "scripts": {"start":"node src/server.js","build":"npm run client:build","dev":"node scripts/dev.mjs","seed":"node src/seed.js","client:dev":"vite --config client/vite.config.ts","client:build":"vite build --config client/vite.config.ts"},
   "dependencies": {
     "bcrypt":"^5.1.1",
     "cookie-parser":"^1.4.7",

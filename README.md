@@ -8,7 +8,7 @@ Requer Node.js 22.5 ou superior; o SQLite usa o modulo nativo `node:sqlite`, sem
 npm install
 copy .env.example .env
 npm run seed
-npm run client:build
+npm run build
 npm start
 ```
 
